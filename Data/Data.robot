@@ -6,3 +6,4 @@ ${ANDROID_PLATFORM_VERSION}   %{ANDROID_PLATFORM_VERSION=11}
 ${Hub}          http://127.0.0.1:${AppiumPort}/wd/hub
 ${AppiumPort}    4723
 ${Username}     mouhamedfsane
+${message}      This is a test message

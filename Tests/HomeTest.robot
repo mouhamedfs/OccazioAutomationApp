@@ -6,7 +6,6 @@ Resource        ../Resources/Base.robot
 
 *** Test Cases ***
 Demarrage
-  [Tags]        tests12
+  [Tags]        firststep
   Navigate.Unboarding
-  #Messagerie.Inscription    ${Username}
-  
+  Messagerie.Send Message    ${message}
