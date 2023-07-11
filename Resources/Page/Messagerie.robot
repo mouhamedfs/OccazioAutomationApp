@@ -20,10 +20,7 @@ Send Message
     Inscription    ${Username}
     Wait Until Element Is Visible    id=cl_chat_send_message
     Wait Until Element Is Visible    id=ib_chat_message_send
-    Tap    id=cl_chat_send_message
-    Input Text    id=cl_chat_send_message    ${message}
+    Click Element    id=et_chat_message
+    Input Text    id=et_chat_message    ${message}
     Wait Until Element Is Visible    id=ib_chat_message_send
     Click Element    id=ib_chat_message_send
-    Wait Until Page Contains Element    ${message}
-
-    
