@@ -16,3 +16,20 @@ Unboarding
     Wait Until Element Is Visible    id=tv_why_user_title
     Wait Until Element Is Visible    id=v_click_why_other
     Click Element    id=v_click_why_other
+
+Switch between Mode
+   [Arguments]         ${choix}
+   IF    '${choix}' == 'Mode Acheteur'
+      Mode Acheteur
+   ELSE
+      Mode Vendeur
+   END
+
+Mode Acheteur
+    Click Element                    id=bt_switch_mode
+    Wait Until Element Is Visible    id=tv_mode_buyer
+
+
+Mode Vendeur
+    Click Element                    id=bt_switch_mode
+    Wait Until Element Is Visible    id=tv_mode_seller

@@ -28,5 +28,14 @@ Occasio app
   #...  noReset=true
 
 
+Homepage app
+  Open Application
+  ...  ${Hub}
+  ...  automationName=${ANDROID_AUTOMATION_NAME}
+  ...  platformName=${ANDROID_PLATFORM_NAME}  platformVersion=${ANDROID_PLATFORM_VERSION}
+  ...  app=${ANDROID_APP}
+  ...  noReset=true
+
+
 Close App
     Close Application

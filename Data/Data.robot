@@ -7,3 +7,5 @@ ${Hub}          http://127.0.0.1:${AppiumPort}/wd/hub
 ${AppiumPort}    4723
 ${Username}     mouhamedfsane
 ${message}      This is a test message
+${choix}        Mode Vendeur
+${matriculeBuyer}       AA123AA
