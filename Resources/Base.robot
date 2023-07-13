@@ -2,7 +2,6 @@
 Resource        ../Data/Data.robot
 Library         AppiumLibrary
 Library         OperatingSystem
-Library         Process
 
 *** Variables ***
 ${APPIUM_COMMAND}    appium -p 4723

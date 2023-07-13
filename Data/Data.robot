@@ -8,4 +8,4 @@ ${AppiumPort}    4723
 ${Username}     mouhamedfsane
 ${message}      This is a test message
 ${choix}        Mode Vendeur
-${matriculeBuyer}       AA123AA
+${matriculeBuyer}       AA-123-AA
