@@ -26,6 +26,7 @@ Occasio app
   ...  platformName=${ANDROID_PLATFORM_NAME}  platformVersion=${ANDROID_PLATFORM_VERSION}
   ...  app=${ANDROID_APP}
   #...  noReset=true
+  Log To Console    Application open
 
 
 Close App
