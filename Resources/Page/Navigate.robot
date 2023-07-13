@@ -3,7 +3,7 @@ Library           AppiumLibrary
 
 *** Keywords ***
 Unboarding
-    Wait Until Element Is Visible       id=bt_start_showcase   30s
+    Wait Until Element Is Visible       id=fr.dsquad.occazio:id/bt_start_showcase   30s
     Click Element    id=bt_start_showcase
     Wait Until Element Is Visible    id=indicator_showcase
     ${buttons}=    Run Keyword And Return Status    Page Should Not Contain Element    id=bt_stop_showcase
