@@ -11,7 +11,7 @@ Demarrage
   Navigate.Unboarding
   Navigate.Switch between Mode      ${choix}
   Messagerie.Send Message    ${message}
-  Navigate.Switch between Mode      Mode Acheteur
+  Navigate.Switch between Mode      Mode Vendeur
 
 Mode Vendeur Implementation
    [Tags]        regression
