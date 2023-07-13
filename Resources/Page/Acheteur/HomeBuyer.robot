@@ -30,3 +30,5 @@ Equipements types
     Wait Until Page Contains Element    id=bt_advert_description_facilities
     Click Element    id=bt_advert_description_facilities
     Wait Until Page Contains Element    id=tv_facilities_title
+
+#todo : Implement search features for verifications
