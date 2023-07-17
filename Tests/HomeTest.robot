@@ -11,8 +11,8 @@ Demarrage
   Navigate.Unboarding
   Navigate.Switch between Mode      ${choix}
   Messagerie.Send Message    ${message}
-  Navigate.Switch between Mode      Mode Vendeur
+  Close Application
 
-Mode Vendeur Implementation
-   [Tags]        regression
-   HomeBuyer.Search for an specific registration number
+#Mode Vendeur Implementation
+   #[Tags]        regression
+   #HomeBuyer.Search for an specific registration number

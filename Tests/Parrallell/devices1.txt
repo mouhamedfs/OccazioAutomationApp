@@ -1,0 +1,2 @@
+--variable deviceName:Google Pixel 6
+--variable os_version:12.0
